@@ -1,0 +1,64 @@
+.m-container {
+    text-align: center;  /* Centers the text horizontally */
+    margin: 50px 0;      /* Adjusts vertical spacing before and after the container */
+    padding: 20px;       /* Inner padding for the container */
+    text-align: left;
+    background-color: #f8f9fa; /* A light background color; change as needed */
+    border-radius: 10px; /* Rounded corners for the container */
+}
+
+/* Add padding around the table */
+.table-responsive {
+    padding: 20px;
+}
+
+/* Style the pagination buttons */
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination-button {
+    background-color: #007BFF; /* Default Bootstrap primary color */
+    color: #FFF;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.pagination-button:hover {
+    background-color: #0056b3; /* Darken the primary color on hover */
+}
+
+.pagination-button.active {
+    background-color: #0056b3; /* Active button has the darker color */
+}
+
+.table-padding {
+    padding: 20px;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

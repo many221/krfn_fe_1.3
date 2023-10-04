@@ -1,0 +1,27 @@
+/* HomeView.css or any other dedicated CSS file */
+
+.hero-container {
+    text-align: center;  /* Centers the text horizontally */
+    margin: 50px 0;      /* Adjusts vertical spacing before and after the container */
+    padding: 20px;       /* Inner padding for the container */
+    text-align: left;
+    border-radius: 10px; /* Rounded corners for the container */
+}
+
+.hero-container h1 {
+    font-size: 4rem;     /* Adjusts the size of the main headline */
+    color: #343a40;      /* Adjusts the color of the main headline */
+    margin-bottom: 15px; /* Space between the headline and the subtext */
+}
+
+.hero-container p {
+    font-size: 1.5rem;   /* Adjusts the size of the subtext */
+    color: #6c757d;      /* Adjusts the color of the subtext */
+}
+
+.divider {
+    width: 100%;            /* Makes sure the line spans the entire width */
+    height: 2px;            /* Adjust for desired thickness of the line */
+    background-color: #ccc; /* Color of the divider line */
+    margin: 20px 0;         /* Space above and below the divider */
+}

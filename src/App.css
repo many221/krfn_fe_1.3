@@ -1,0 +1,215 @@
+/* CSS Reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.table-scrollable {
+  max-height: 300px; /* Adjust based on your preference */
+  overflow-y: auto;
+}
+
+.table-bordered {
+  border: 5px solid #ddd;
+  border-radius: 30px;
+}
+.table-bordered th,
+.table-bordered td {
+  border-left-width: 0;
+  border-top-width: 0;
+}
+
+.table-bordered th:first-child,
+.table-bordered td:first-child {
+  border-left-width: 1px;
+}
+
+.table-bordered thead th:first-child {
+  border-top-left-radius: 10px;
+}
+
+.table-bordered thead th:last-child {
+  border-top-right-radius: 10px;
+}
+
+.table-bordered tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 10px;
+}
+
+.table-bordered tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 10px;
+}
+
+.nav-link.rounded {
+  border: 2.5px solid rgb(0, 0, 0);
+  border-radius: 50px;  /* Pill shape */
+  padding: 15px 30px;  /* Increase top/bottom and left/right padding */
+  font-size: 1.5rem;   /* Increase font size */
+  margin: 20px;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+}
+
+
+
+.nav-link.rounded:hover {
+  background-color: rgb(0, 0, 0); /* Change to desired hover background color */
+  color: rgb(255, 255, 255); /* Change to desired hover text color */
+}
+
+.navbar-brand {
+  /* Adjust the vertical positioning */
+  padding-top: 10px; /* Increase/Decrease to move the logo up/down */
+  padding-bottom: 10px; /* Increase/Decrease to move the logo down/up */
+
+  /* Adjust the horizontal positioning */
+  padding-left: 100px; /* Increase/Decrease to move the logo to the right/left */
+  padding-right: 20px; /* Increase/Decrease to move the logo to the left/right */
+
+  /* If you need more advanced positioning */
+  /* position: relative;
+  top: 5px;            /* Move the logo 5 pixels down */
+  /* left: 5px;          /* Move the logo 5 pixels to the right */
+}
+
+.navbar-brand img {
+  max-height: 200px; /* Adjust the size of the logo if necessary */
+  width: auto; /* Maintain the aspect ratio */
+}
+
+.navbar-nav {
+  display: flex; /* Align the nav links horizontally */
+  justify-content:center; /* Make the nav links spread out */
+  width: 100%; /* Full width */
+
+}
+
+.nav-item {
+  /* Adjust the spacing between individual nav links */
+  flex: 1; /* Adjust to desired spacing */
+  text-align: center; /* Aligns the text inside the nav link */
+  margin-right: 10%; /* Increase/Decrease to provide some spacing between nav links */
+  margin-left: 10%; /* Increase/Decrease to provide some spacing between nav links */  
+}
+
+
+
